@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+.env/
+env/
+venv/
+ENV/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs & coverage
+*.log
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tilt
+tilt_modules/
+
+# Kubernetes
+*.kube/config
+.kube/cache/
+kubeconfig-*
+
+# Docker
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# GitOps / Flux (local caches)
+flux-system/
+
+# --- OpenTofu / Terraform ---
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars.json
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# --- Terragrunt ---
+.terragrunt-cache/
+crash.log
+crash.*.log
+
+# --- Local overrides ---
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Editor / OS clutter ---
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/

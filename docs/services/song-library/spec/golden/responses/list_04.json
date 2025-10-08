@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "validation-error",
+    "message": "Invalid sort parameter",
+    "details": { "fieldErrors": [{ "field": "sort", "reason": "unsupported value 'bogus'" }] }
+  }
+}

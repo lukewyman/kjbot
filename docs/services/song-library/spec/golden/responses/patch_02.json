@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "validation-error",
+    "message": "Invalid duration",
+    "details": { "fieldErrors": [{ "field": "duration", "reason": "must be between 0 and 86400" }] }
+  }
+}

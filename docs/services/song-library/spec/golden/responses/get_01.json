@@ -1,0 +1,9 @@
+{
+  "song_id": "00000000-0000-4000-8000-000000000001",
+  "title": "Don't Stop Believin'",
+  "artist": "Journey",
+  "duration": 251,
+  "media_file": { "bucket": "kjbot-media", "key": "tracks/journey/dont-stop-believin.mp3" },
+  "created_at": "2025-09-30T00:00:00Z",
+  "updated_at": "2025-09-30T00:00:00Z"
+}
